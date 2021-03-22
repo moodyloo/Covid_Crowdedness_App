@@ -2,11 +2,6 @@ var app = require('express')();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
-app.use(express.static(path.join(__dirname,'/build')));
-app.get('/', function (req, res, next) {
-    res.sendFile(path.resolve('build/index.html'));
-});
-
 //database sqlite3
 const sqlite3 = require('sqlite3');
 
