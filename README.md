@@ -5,7 +5,8 @@ How to run the programs
 enable any permissions for the app.
 3. You must connect to a wifi first before using this app.
 
-4. Inside "covid-tracing-website" folder, open *two* terminals: One for the server and one for the web app.
+4.1 Inside "covid-tracing-website" folder, open a terminal and type "npm install"
+4.2 Inside "covid-tracing-website" folder, open *two* terminals in total: One for the server and one for the web app.
 5. In one terminal type: "npm start" to start web app development server
 6. In second terminal type "node src/server.js" to start express server
 
