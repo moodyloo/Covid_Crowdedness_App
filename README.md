@@ -17,8 +17,7 @@ enable any permissions for the app.
 10. On web application click the date you send the location info, and click on the location street name (A list under the calendar).
 11. There should be a change to the bar graph, if not wait at least *2 minutes*, because that's how long the server updates the web app.
 
-**P.S This app will 100% *not* work for you(I know funny thing to say), that's because the mobile app is connecting
-**to my computer wifi's IP address, it will work if it is connecting to your PC's IP address. To do this:**
+**P.S This app will only work if the following has been done**
 
 Inside WifiScannerActivity.java file, change **http://192.168.1.19:5000** to **http://(YOUR OWN PC IP ADDRESS):5000**
 You need to rebuild this android apk again(sorry :/).
