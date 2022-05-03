@@ -1,10 +1,6 @@
 import React,{Component} from 'react';
 import ReactList from 'react-list';
 import ListGroup from 'react-bootstrap/ListGroup'
-//import Geocode from "react-geocode";
-
-//Geocode.setApiKey("AIzaSyBxOeBOwjXt5WoIDDleqHULo1F6aQoesfY");
-//Geocode.enableDebug();
 
 var listItems = [];
 
